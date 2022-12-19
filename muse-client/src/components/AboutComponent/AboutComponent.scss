@@ -1,0 +1,61 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.bio {
+    background-color: $global-bg-secondary;
+    border-radius: 5.5px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.7rem;
+        color: $global-bg-primary;
+        width: 22rem;
+        min-height: 50rem;
+    }
+
+    &__img {
+        width: 20rem;
+        position: relative;
+        top: -2rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.7);
+        border-radius: 5.5px;
+    }
+
+    &__text {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5.5px;
+        padding: 0.5rem;
+    }
+
+    &__title {
+        text-align: center;
+        color: $auxiliary-color-soft;
+    }
+
+
+    &__description {
+        padding: 0.8rem 0;
+    }
+
+
+    &__wrapper {
+        border-top: 2px solid $auxiliary-color-soft;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.75rem;
+        margin-top: 1rem;
+    }
+
+    &__references {
+        text-decoration: none;
+        color: $global-bg-primary;
+    }
+}

@@ -1,0 +1,95 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.songlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet {
+
+        padding: 0 1rem;
+        gap: 1rem;
+        font-size: 14px;
+    }
+
+    &__title {
+        color: $auxiliary-color;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    &__table {
+        padding: 0;
+
+        @include desktop {
+            width: 100%;
+            padding: 1rem 4rem;
+        }
+    }
+
+    &__image {
+
+        @include tablet {
+            border-radius: 50%;
+            width: 64px;
+        }
+    }
+
+
+    &__text {
+        display: none;
+
+        @include tablet {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        @include desktop {}
+    }
+
+    &__wrapper {
+        @include tablet {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        @include desktop {
+            justify-content: space-around;
+            width: 100%;
+        }
+    }
+
+    &__head {
+        color: $clear-color;
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__data {
+        @include tablet {
+            font-size: 1.2rem;
+            color: $global-bg-secondary;
+            width: 11rem;
+        }
+
+        &--duration {
+            @extend .songlist__data;
+            width: 5rem;
+        }
+    }
+
+    &__action {
+        @include tablet {
+            width: 64px;
+        }
+    }
+
+}

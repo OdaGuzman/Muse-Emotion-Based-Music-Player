@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 62" style="enable-background:new 0 0 400 62;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{mask:url(#b8b8ca2da2_1_);}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="400" height="62"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="400" height="62">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="62" id="b8b8ca2da2_1_">
+			<g class="st1">
+				<g transform="matrix(0.15, 0, 0, 0.150485, 37.500002, 164.312476)">
+					
+						<image style="overflow:visible;enable-background:new    ;" width="2000" height="309" xlink:href="162E43A13654E5D0.jpg"  transform="matrix(1.3333 0 0 1.3333 -250 -1091.886)">
+					</image>
+				</g>
+			</g>
+		</mask>
+		<g class="st2">
+			<g transform="matrix(0.15, 0, 0, 0.150485, 37.500002, 164.312476)">
+				<g style="enable-background:new    ;">
+					
+						<image style="overflow:visible;" width="2000" height="309" xlink:href="162E43A13654E5D1.png"  transform="matrix(1.3333 0 0 1.3333 -250 -1091.886)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

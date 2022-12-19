@@ -1,0 +1,92 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.song {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid $global-bg-secondary;
+    padding: 0.5rem 0;
+
+    @include tablet {
+        text-align: center;
+    }
+
+    @include desktop {
+        gap: 1.5rem;
+    }
+
+    &__image {
+
+        @include tablet {
+            padding: 0;
+        }
+    }
+
+    &__img {
+
+        border-radius: 50%;
+        width: 4rem;
+
+        @include tablet {
+            border-radius: 50%;
+            width: 4rem;
+        }
+    }
+
+    &__wrapper {
+        width: 11rem;
+
+        @include tablet {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @include desktop {
+            justify-content: space-around;
+            width: 100%;
+
+        }
+    }
+
+
+    &__data {
+        color: $global-bg-secondary;
+
+        @include tablet {
+            font-size: 1.2rem;
+            color: $global-bg-secondary;
+            width: 11rem;
+        }
+
+        &--duration {
+            @extend .song__data;
+            width: 5rem;
+
+        }
+    }
+
+
+
+    &__name {
+        cursor: pointer;
+    }
+
+    &__action {
+        width: 64px;
+    }
+
+    &__icon {
+        width: 2rem;
+
+        @include tablet {
+            width: 20px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.nf404 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: $global-bg-secondary;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 5px;
+
+    @include tablet {
+        flex-direction: row;
+        margin: auto;
+    }
+
+    &__img {
+        width: 15rem;
+        border-radius: 5px;
+    }
+
+    &__description,
+    &__title {
+        color: $global-bg-primary;
+    }
+}

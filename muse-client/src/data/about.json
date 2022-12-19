@@ -1,0 +1,17 @@
+[
+    {
+        "title": "The What",
+        "picture": "/images/json-the-what.jpg",
+        "description": "Muse is a music player intended to create playlists based on the user's mood ratio input. It's a simple, and intuitive player, based on Spotify's great songs collection, and the user's most-listened to artists and songs on it."
+    },
+    {
+        "title": "The Why",
+        "picture": "/images/json-the-why.jpg",
+        "description": "The inspiration behind this project was influenced on the premise that music can be used as a tool to help people cope with their emotions. It also serves as an assertive shuffler for all types of activities: from commuting to sports and social gatherings."
+    },
+    {
+        "title": "The How",
+        "picture": "/images/json-the-how.jpg",
+        "description": "At the core of this project is an algorithm that takes the user's music history on Spotify, and filters it according to the input emotion on Muse. A higher ratio will output upbeat songs, while a lower ratio outputs more mellow ones. This is fed by Spotify's API, based on OAuth2.0."
+    }
+]

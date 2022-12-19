@@ -1,0 +1,55 @@
+@use './styles/partials/mixins' as *;
+@use './styles/partials/variables' as *;
+@use './styles/partials/font-face' as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: $global-bg-primary;
+    height: 100vh;
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    @include tablet {
+        width: 100vw;
+    }
+
+    &__player {
+        height: 10rem;
+    }
+}
+
+.primary-btn {
+    height: 2.25rem;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    background-color: $auxiliary-color-dark;
+    color: $clear-color;
+    font-weight: 700;
+    border: none;
+    margin: 0 5%;
+
+
+    @include tablet {
+        height: 2.375rem;
+        padding: 8px;
+        width: auto;
+    }
+
+    @include desktop {
+        width: 100%;
+    }
+
+    &:hover {
+        background-color: $auxiliary-color;
+    }
+}
