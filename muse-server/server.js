@@ -1,15 +1,3 @@
-const express = require('express');
-const cors = require("cors");
-require('dotenv').config();
-const querystring = require('querystring');
-const axios = require('axios');
-
-const app = express();
-const PORT = process.env.PORT;
-const AUTH_ENDPOINT = process.env.AUTH_ENDPOINT;
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URI = process.env.REDIRECT_URI;
 
 
 app.use(cors());
