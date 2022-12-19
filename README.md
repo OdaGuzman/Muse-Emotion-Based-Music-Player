@@ -59,7 +59,6 @@ This repository contains the source code for the [Web Playback SDK Guide](https:
 ### 🥁 npm react-spotify-web-player
 This [package](https://www.npmjs.com/package/react-spotify-web-playback) contains a library that allows streaming, and controlling, the music player connected to Spotify's Web Api.
 
-
 ## Contact
 
 [Oda Guzmán ✨👩🏽‍💻✨](https://www.linkedin.com/in/oda-guzman/)
