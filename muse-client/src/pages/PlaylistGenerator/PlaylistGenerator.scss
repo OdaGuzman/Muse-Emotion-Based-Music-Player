@@ -9,18 +9,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/hero-background.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/images/hero-background.jpg');
         height: 40rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        font-size: 20px;
 
         @include tablet {
             height: 30rem;
+            font-size: 50px;
         }
 
         @include desktop {
             height: 40rem;
+            font-size: 80px;
         }
 
         &__text {

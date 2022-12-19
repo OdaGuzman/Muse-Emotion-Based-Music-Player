@@ -63,14 +63,13 @@ export default function PlaylistGenerator({ playlistId, songs, setSongs, setTitl
     return (
         <div className="playlist-gen">
             <section className="playlist-gen__hero">
-                <h1 className="playlist-gen__title">Muse</h1>
-                <h3 className="playlist-gen__title">Emotion-Based Music Player</h3>
+                <div className="playlist-gen__title">All The Vibes. All The Feels.</div>
             </section>
 
             <form onSubmit={handleSubmit} className="playlist-gen__form" >
                 <fieldset className='playlist-gen__fieldset'>
-                    <legend className="playlist-gen__set-title">All The Vibes. All The Feels.</legend>
-                    <p className="playlist-gen__slogan">I'm feeling: </p>
+                    <legend className="playlist-gen__set-title">Dive Right In</legend>
+                    <p className="playlist-gen__slogan">I'm feeling:</p>
                     <input type="range" min="20" max="100" value={feeling} className="playlist-gen__slider" style={{ background: color }} id="range" onChange={handleSliderChange} />
                     <div className="playlist-gen__set-text">
 
