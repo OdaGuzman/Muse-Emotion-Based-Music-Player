@@ -34,7 +34,7 @@ Muse runs on Node.js. Please refer to their
 
 1️⃣ Clone the GitHub repository to your local machine.  
 2️⃣ On VS Code, open a terminal in the server folder.  
-3️⃣ Start both client and server with the following command:  
+3️⃣ Start the server folder with the following command:  
 
 ```bash
 npm install && npm start
