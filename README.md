@@ -13,6 +13,7 @@ With Muse, users may generate playlists with any type of Spotify account. A Spot
 𝄢 Display the user's top songs, and artists, for the current month.  
 𝄢 Display the user's top songs, and artists, for the last 6 months.  
 𝄢 Display the user's top songs, and artists, from all time.
+𝄢 Choose, and play, from your Spotify, Bluetooth or Airplay, registered devices.
 
 ## Technologies Used 💻
 
