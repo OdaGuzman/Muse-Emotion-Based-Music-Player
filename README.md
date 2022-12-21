@@ -4,6 +4,7 @@
 Muse is a music player that creates playlists based on the user's emotional input. The music player operates established on the user's musical history and artist preferences on Spotify to provide personalized playlist recommendations. 
 
 The music playlists created on Muse will also be visible on the user's Spotify account.
+With Muse, users may generate playlists with any type of Spotify account. A Spotify Premium account would be necessary to use the player.
 
 ## Features 🎧
 
